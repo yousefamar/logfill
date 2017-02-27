@@ -1,0 +1,38 @@
+{
+  "name": "logfill",
+  "version": "0.1.0",
+  "description": "A greedy interpolator for streaming Log JSON",
+  "scripts": {
+    "build": "lsc --no-header -c .",
+    "watch": "lsc --no-header -cw .",
+    "start": "node logfill.js",
+    "prepublish": "lsc --no-header -c ."
+  },
+  "bin": {
+    "logfill": "./logfill.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousefamar/logfill.git"
+  },
+  "keywords": [
+    "json",
+    "log",
+    "stream",
+    "streaming",
+    "greedy",
+    "interpolate",
+    "interpolator",
+    "fill",
+    "autofill"
+  ],
+  "author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yousefamar/logfill/issues"
+  },
+  "homepage": "https://github.com/yousefamar/logfill#readme",
+  "devDependencies": {
+    "livescript": "^1.5.0"
+  }
+}
