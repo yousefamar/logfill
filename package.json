@@ -34,5 +34,8 @@
   "homepage": "https://github.com/yousefamar/logfill#readme",
   "devDependencies": {
     "livescript": "^1.5.0"
+  },
+  "dependencies": {
+    "yargs": "^6.6.0"
   }
 }
